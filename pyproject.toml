@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "routify"
+version = "1.0.0"
+description = "A desktop route planner built with custom data structures and pathfinding algorithms."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PyQt6",
+  "PyQt6-WebEngine",
+  "networkx",
+  "osmnx",
+  "folium",
+  "requests"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
