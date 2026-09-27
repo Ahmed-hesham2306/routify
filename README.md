@@ -28,7 +28,7 @@ src/routify/algorithms/     Custom data structures and algorithms
 src/routify/data/           CSV and map-data access
 src/routify/services/       Routing and multi-route logic
 src/routify/presentation/   Desktop GUI and CLI
-data/                       Sample Cairo road network data
+data/                       Map-data setup and named-place reference
 tests/                      Algorithm and route tests
 ```
 
@@ -90,3 +90,4 @@ Large generated map files are intentionally not stored in the repository. This k
 ## What I practiced
 
 Graph modelling, custom data structures, algorithm analysis, pathfinding, geospatial data processing, desktop UI development, and test-driven debugging.
+
